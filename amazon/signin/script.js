@@ -99,13 +99,13 @@ buttoni.addEventListener("click", (event) => {
         localStorage.setItem("infor",JSON.stringify(arr))
 
     }
-    // console.log(informa)
+
     
-    // If all validations pass, redirect to home page
+
     if (checkname() && checkname_email_is_valid() &&  password_checker(passwordi.value)) {
         // window.location.href = '../login/index.html'
         // console.log(arr)
- // Replace with your actual home page URL
+
     }
 });
 
@@ -113,10 +113,8 @@ signin.addEventListener("click", (event) => {
     event.preventDefault();
     
 
-    // console.log(informa)
-    // If all validations pass, redirect to home page
+    
         window.location.href = '../login/index.html'
 
 });
 
-// console.log(arr)
