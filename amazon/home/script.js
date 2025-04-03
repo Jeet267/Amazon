@@ -11,13 +11,13 @@ if (parsed_profile_data) {
   // Hide the original account login div
   account.style.display = "none";
 
-  // Create a new div for the user's name
+
   
   userNameDiv.classList.add("user-name");
   userNameDiv.textContent = `Hi ${parsed_profile_data[0].namehai}`;
 
 
-  // Insert the new div where the original account login div was
+
   account.parentNode.insertBefore(userNameDiv, account.nextSibling);
 
 }
